@@ -1,8 +1,8 @@
-package br.com.runner
+package br.com.runner.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import pub.devrel.easypermissions.BuildConfig
+import br.com.runner.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
