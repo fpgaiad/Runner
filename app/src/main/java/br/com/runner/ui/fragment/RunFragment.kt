@@ -22,6 +22,9 @@ class RunFragment : Fragment(R.layout.fragment_run), EasyPermissions.PermissionC
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         requestPermissions()
+        fab.setOnClickListener {
+            findNavController().navigate(R.id.action_runFragment_to_trackingFragment)
+        }
     }
 
     private fun requestPermissions() {
